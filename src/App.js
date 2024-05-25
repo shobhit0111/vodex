@@ -7,7 +7,7 @@ export default function App() {
   return (
      <>
       <Routes>
-        <Route path='/home' Component={Home1}/>
+        <Route path='/' Component={Home1}/>
         <Route path='/home2' Component={Home2}/>
         <Route path='/dashboard' Component={Dashboard}/>
       </Routes>
