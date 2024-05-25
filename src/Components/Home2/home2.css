@@ -1,0 +1,198 @@
+.logo-container1{
+    padding-top: 100px;
+    display:flex;
+    /* text-align: center; */
+    justify-content: center;
+    height:70px;
+}
+
+.logo{
+    width: 350px;
+    height: 70px;
+    top: 120px;
+    left: 736px;
+
+}
+
+/* .text-container{
+    /* display: flex; */
+    
+    /* text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    margin-top:20px
+} */ 
+
+.centerTextButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+.text-1, .text-3{
+    /* display: block; */
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 10px;
+    font-family: Mulish;
+}
+
+.text-2, .text-4{
+    /* display: inline-block; */
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.headGradient{
+    background: linear-gradient(to right, #FF4D00, #FFA06B); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.centerText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Mulish;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36.24px;
+    height:72px;
+    width:1054px;
+}
+.centerText p{
+    position: relative;
+    margin: 0px;
+    left: 19%;
+}
+.Textbtn{
+    margin-top: 20px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.textbutton{
+    width: 217px;
+    height: 35px;
+    padding-top:12px;
+    margin:20px;
+    border-radius: 7px;
+    border: 1px solid #FF8744;
+    color: white;
+    background-color: #FF4D00;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.body{
+    width: 80%;
+    height:50%; 
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+}
+
+.form{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    height:100%;
+    width:50%;
+}
+
+.form img{
+    height: 80%;
+    width: 80%;
+}
+
+.formDiv, .formDiv1, .formDiv2{
+    position: absolute;
+    top: 3.5%;
+    left: 22.9%;
+    height: 73%;
+    width: 34%;
+    border-radius: 35px;
+    border: 1px solid red;
+}
+
+
+.formDiv img{
+    height: 30%;
+    width: 85%;
+    position: relative;
+    top: 6%;
+}
+
+.formDiv1 img{
+    height: 5%;
+    width: 90%;
+    position: relative;
+    top: 40%;
+}
+
+.formDiv2 p{
+        top: 43%;
+        position: absolute;
+}
+
+#input1{
+    height: 35px;
+    width: 75%;
+    border-radius: 4px;
+    position: absolute;
+    /* display:flex; */
+    top: 54%;
+/* top: 1085px; */
+/* left: 807px; */
+
+}
+
+#input2{
+    height: 35px;
+    width: 75%;
+    border-radius: 4px;
+    position: absolute;
+    /* display:flex; */
+    top: 64%;
+/* top: 1085px; */
+/* left: 807px; */
+
+}
+
+#input3{
+    height: 35px;
+    width: 75%;
+    border-radius: 4px;
+    position: absolute;
+    /* display:flex; */
+    top: 74%;
+/* top: 1085px; */
+/* left: 807px; */
+
+}
+
+.formDiv2 button {
+    height: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 67%;
+    border-radius: 4px;
+    position: absolute;
+    top: 84%;
+    font-family: Mulish;
+    color: white;
+    /* text-align: left; */
+    padding: 10px;
+}
+
+.body p{
+    font-family: Mulish;
+    font-size: 167.47px;
+    font-weight: 800;  
+    /* text-align: center; */
+}

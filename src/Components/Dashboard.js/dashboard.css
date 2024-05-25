@@ -1,0 +1,148 @@
+.Container {
+  height: 99vh;
+  width: 99vw;
+  border: solid grey 2px;
+  background-color: white;
+  display: flex;
+}
+.Side-Content {
+  width: 20vw;
+  height: 99vh;
+  border: solid grey 2px;
+  background: #111827;
+}
+.Main-Content {
+  width: 80vw;
+  height: 99vh;
+  border: solid grey 2px;
+  background-color: #1f2937;
+}
+.Side-Content img {
+  height: 36px;
+  width: 182px;
+  display: block;
+  margin: auto;
+}
+
+.leads-div {
+  margin: 0.5rem 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  span {
+    width: 100%;
+    display: flex;
+    padding-left: 3rem;
+  }
+
+  .view-leads {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3rem;
+    button {
+      color: white;
+      background-color: #374151;
+      border-radius: 5px;
+    }
+  }
+}
+.SideNav-Content {
+  width: 20vw;
+  height: 50vh;
+  border: solid grey 2px;
+}
+
+.graphDiv {
+  display: flex;
+  position: relative;
+  width: 78.4vw;
+  height: 35vh;
+  border: 1px solid grey;
+}
+
+.chartDiv {
+  position: relative;
+  width: 70%;
+  height: 90%;
+  border: 1px solid grey;
+  left: 5%;
+}
+
+.scoreDiv {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  border: 1px solid grey;
+  left: 5%;
+}
+
+.scoreDiv .score1 {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  justify-content: left;
+  color: white;
+  /* align-items:center; */
+}
+
+.scoreDiv .score2 {
+  display: flex;
+  height: 60%;
+  width: 90%;
+  color: white;
+  padding-left: 20%;
+  justify-content: center;
+  /* align-items:center; */
+}
+
+.scoreDiv .score3 {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  color: white;
+  /* top: 0px; */
+  padding-top: 0px;
+  /* padding-left: 20%; */
+  justify-content: center;
+  /* align-items:center; */
+}
+
+.score3 p {
+  line-height: 0.1px;
+}
+
+.score1 p {
+  line-height: 2px;
+}
+
+.tableDiv {
+  display: flex;
+  position: fixed;
+  width: 78.4vw;
+  height: 90vh;
+  border: 1px solid grey;
+}
+
+.flexButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.flexButtons button {
+  border-radius: 5px;
+  background-color: #374151;
+  color: white;
+  font-family: inter;
+}
+
+.MuiToolbar-root{
+    button{
+        padding: 0 !important;
+        width: 2rem;
+        margin: 0;
+    }
+}
